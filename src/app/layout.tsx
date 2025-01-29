@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth overflow-hidden">
       <body
-        className={`${inter.variable} antialiased container mx-auto px-4 sm:px-6 lg:px-8`}
+        className={`${inter.variable} antialiased`}
       >
         {children}
       </body>
