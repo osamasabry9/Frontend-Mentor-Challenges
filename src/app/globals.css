@@ -7,6 +7,14 @@
   --foreground: #171717;
 }
 
+/* Background patterns */
+.bg-mobile-pattern {
+  background-image: url("/images/background-pattern-mobile.svg");
+}
+.bg-desktop-pattern {
+  background-image: url("/images/background-pattern-desktop.svg");
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: hsl(0, 0%, 8%);
@@ -15,6 +23,10 @@
     --grey700: hsl(0, 0%, 20%);
     --grey800: hsl(0, 0%, 12%);
     --grey900: hsl(0, 0%, 8%);
+    --White: hsl(0, 0%, 100%);
+    --LightPink: hsl(275, 100%, 97%);
+    --GrayishPurple: hsl(292, 16%, 49%);
+    --DarkPurple: hsl(292, 42%, 14%);
   }
 }
 
